@@ -47,6 +47,10 @@ function App() {
       )
       await onLoad()
     }
+
+    document.querySelector('input[name="name"]').value = ''
+    document.querySelector('input[name="contact"]').value = ''
+    document.querySelector('input[name="address"]').value = ''
   }
 
   function onUpdate(user, id) {
